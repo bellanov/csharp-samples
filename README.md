@@ -144,7 +144,7 @@ Coverage reports are generated in `coverage/` directory.
 ## Dependencies
 
 ### Core
-- None (targets .NET Standard 8.0)
+- None (targets .NET 8.0)
 
 ### Console
 - Microsoft.Extensions.DependencyInjection (10.0.9)
