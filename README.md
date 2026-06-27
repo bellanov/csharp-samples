@@ -8,11 +8,13 @@ This solution demonstrates modern design patterns and best practices in C#:
 
 ```
 CSharpSamples/
-├── CSharpSamples.Core/        # Core library with business logic and services
-│   ├── Models/                # Data models (e.g., Person record)
-│   └── Services/              # Service interfaces and implementations
-├── CSharpSamples.Console/     # Console application showcasing usage
-└── CSharpSamples.Tests/       # Unit tests with code coverage
+├── src/                           # Source code
+│   ├── CSharpSamples.Core/        # Core library with business logic and services
+│   │   ├── Models/                # Data models (e.g., Person record)
+│   │   └── Services/              # Service interfaces and implementations
+│   └── CSharpSamples.Console/     # Console application showcasing usage
+└── tests/                         # Test projects
+    └── CSharpSamples.Tests/       # Unit tests with code coverage
 ```
 
 ## Modern Design Patterns Showcased
@@ -20,7 +22,7 @@ CSharpSamples/
 ### 1. **Dependency Injection (DI)**
 - Uses Microsoft.Extensions.DependencyInjection
 - Demonstrates loose coupling and testability
-- See: `CSharpSamples.Console/Program.cs`
+- See: `src/CSharpSamples.Console/Program.cs`
 
 ### 2. **Interface Segregation Principle (ISP)**
 - Small, focused interfaces
@@ -62,7 +64,7 @@ dotnet build
 ### Run the Console Application
 
 ```bash
-dotnet run --project CSharpSamples.Console
+dotnet run --project src/CSharpSamples.Console
 ```
 
 Expected output:

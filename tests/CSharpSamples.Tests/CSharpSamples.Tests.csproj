@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpSamples.Core\CSharpSamples.Core.csproj" />
+    <ProjectReference Include="../../src/CSharpSamples.Core/CSharpSamples.Core.csproj" />
   </ItemGroup>
 
 </Project>

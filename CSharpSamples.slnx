@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="CSharpSamples.Console/CSharpSamples.Console.csproj" />
-  <Project Path="CSharpSamples.Core/CSharpSamples.Core.csproj" />
-  <Project Path="CSharpSamples.Tests/CSharpSamples.Tests.csproj" />
+  <Project Path="src/CSharpSamples.Console/CSharpSamples.Console.csproj" />
+  <Project Path="src/CSharpSamples.Core/CSharpSamples.Core.csproj" />
+  <Project Path="tests/CSharpSamples.Tests/CSharpSamples.Tests.csproj" />
 </Solution>
